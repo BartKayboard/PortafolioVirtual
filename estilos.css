@@ -1,30 +1,116 @@
 body {
-    background-color: #000;
-    color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-.barra-navegacion {
+.navbar {
+    background-color: #c44a4a;
     display: flex;
-    justify-content: center;
-    background-color: #ff0000;
-    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.casilla {
-    margin: 0 10px;
-    padding: 5px 10px;
-    cursor: pointer;
+.title-box {
+    margin-right: 5px;
 }
 
-.casilla:hover {
-    background-color: #000;
-    color: #ff0000;
+.title-box a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
 }
 
-img {
-    display: block;
+.title-box a:hover {
+    color: #841a1a;
+}
+
+header {
+    background-color: #c44a4a;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+section {
+    max-width: 800px;
     margin: 0 auto;
-    max-width: 100%;
-    height: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 20px;
 }
+
+h2 {
+    color: #c44a4a;
+}
+
+h1 {
+    font-size: 30px;
+    transition: 0.40s;
+}
+
+h1:hover {
+    color: #841a1a;
+    cursor: pointer;
+    font-size: 35px;
+    transition: 0.30s;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #c44a4a;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: 1s;
+}
+
+button[type="submit"]:hover {
+    background-color: #841a1a;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 1.2em;
+    transition: 1s;
+}
+
