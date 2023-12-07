@@ -1,0 +1,30 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.barra-navegacion {
+    display: flex;
+    justify-content: center;
+    background-color: #ff0000;
+    padding: 10px;
+}
+
+.casilla {
+    margin: 0 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.casilla:hover {
+    background-color: #000;
+    color: #ff0000;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
