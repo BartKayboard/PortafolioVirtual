@@ -12,7 +12,7 @@
             position: fixed;
             bottom: 0;
             width: 100%;
-            background-color: #585555;
+            background-color: #ffffff;
             padding: 20px 0;
             text-align: center;
             left: 0;
@@ -30,8 +30,8 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #413c3c;
-            color: #fff;
+            background-color: #9b9b9b;
+            color: #000000;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -47,20 +47,25 @@
         img {
             max-width: 100%;
             height: auto;
-            border: 5px solid #ff6347;
+            border: 5px solid #c44a4a;
             margin-top: 20px;
         }
 
         .title {
+            margin: 0 auto;
             font-size: 24px;
             font-weight: bold;
             margin-bottom: 10px;
+            background-color: #ffffff;
+            border-radius: 10%;
+            width: 120px;
+            height: 30px;
         }
 
         .bar {
             width: 100px;
             height: 5px;
-            background-color: #ff6347;
+            background-color: #c44a4a;
             margin: 0 auto;
         }
 
@@ -89,29 +94,35 @@
         .dropdown-content {
             display: none;
             position: absolute;
-            background-color: #333;
+            background-color: #f0f0f0;
             min-width: 160px;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             padding: 12px;
             z-index: 1;
             top: 100%;
             left: 0;
-            color: #fff;
+            color: #000000;
         }
 
         .dropdown-content a {
-            color: #fff;
+            color: #000000;
             padding: 8px;
             text-decoration: none;
             display: block;
         }
 
         .dropdown-content a:hover {
-            background-color: #555;
+            background-color: #ffffff;
+            color:rgba(0, 0, 0, 0.776)
         }
 
         .dropdown:hover .dropdown-content {
             display: block;
+        }
+
+        span {
+            color: #651919; 
+            font-weight: bold;
         }
     </style>
 </head>
@@ -132,19 +143,17 @@
         <div class="bar"></div>
         <div class="additional-content">
             <div class="additional-text">
-                <p>¡Saludos! Es un placer presentarme como <span style="color: #ff6347; font-weight: bold;">desarrollador web</span></p>
-                <p>Mi fascinacion con el campo comenzó en el año <span style="color: #6b6766; font-weight: bold;">2018</span>
-                    cuando decidí crear un sitio web de prueba</p>
-                <p>Desde ese momento me embarqué en un viaje de descubrimiento buscando información y cursos de Desarrollo
+                <p>¡Saludos! Es un placer presentarme como <span>desarrollador web</span></p>
+                <p>Mi fascinacion con el campo comenzó en el año <span>2018</span>
+                    cuando decidí crear un sitio web de prueba. Desde ese momento me embarqué en un viaje de 
+                    descubrimiento buscando información y cursos de Desarrollo
                     en HTML5 y CSS3.</p>
                 <br>
-                <p>Cuando se trata de mis proyectos, <span style="color: #ff6347; font-weight: bold;">les acerco con un
-                        profundo sentido de</span></p>
-                <p>Dedicación y un ojo agudo, buscando siempre lograr el mejor resultado posible.</p>
-                <p>Esto con el fin de garantizar que mis clientes estén satisfechos con el producto final.</p>
-                <p>En resumen, <span style="color: #ff6347; font-weight: bold;">soy un red diligente y un apasionado
-                        desarrollador</span> que constantemente se esfuerza</p>
-                <p>por mejorar y entregar excepcionales resultados.</p>
+                <p>Cuando se trata de mis proyectos, <span>les acerco con un profundo sentido de</span> dedicación y un ojo agudo, 
+                    buscando siempre lograr el mejor resultado posible. Esto con el fin de garantizar 
+                    que mis clientes estén satisfechos con el producto final.</p>
+                <p>En resumen, <span>soy un red diligente y un apasionado desarrollador</span> que constantemente se esfuerza 
+                    por mejorar y entregar excepcionales resultados.</p>
             </div>
         </div>
     </div>
