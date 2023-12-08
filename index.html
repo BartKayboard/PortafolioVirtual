@@ -5,67 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julian Callieri | Desarollador web</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #413c3c;
-            color: #fff;
-        }
-
-        .navbar {
-            background-color: #413c3c;
-            overflow: hidden;
-            text-align: center; /* Ajuste para centrar en dispositivos móviles */
-        }
-
-        .navbar a {
-            display: block; /* Ajuste para ocupar toda la anchura en dispositivos móviles */
-            color: #fff;
-            text-decoration: none;
-            background-color: transparent;
-            padding: 10px; /* Ajuste para facilitar el clic en dispositivos móviles */
-            margin: 0;
-        }
-
-        .profile-img {
-            display: block;
-            margin: 20px 20px 0 20px;
-        }
-
-        .title-box {
-            display: inline-block;
-            padding: 8px;
-            border-radius: 5px;
-            margin: 0 10px;
-        }
-
-        .title-box a {
-            color: #fff;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .title-box:hover a {
-            color: #ff6347;
-        }
-
-        section {
-            margin: 20px;
-            text-align: left;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-            margin-bottom: 15px;
-        }
-
-        h1, h2 {
-            text-align: center; /* Ajuste para centrar en dispositivos móviles */
-        }
-    </style>
-    <!-- ... Tu script JavaScript aquí ... -->
+    <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
@@ -77,7 +17,7 @@
         <div class="title-box"><a href="#projects" data-key="projects">Proyectos</a></div>
     </div>
     <header>
-        <h1 style="color: #ff6347; font-family: 'Comic Sans MS', cursive;">Julian Callieri | Portafolio Virtual</h1>
+        <h1>Julian Callieri | Portafolio Virtual</h1>
     </header>
 
     <section>
@@ -102,11 +42,13 @@
     <br>
     <br>
     <section>
-        <h2>Donde contacarme</h2>
+        <h2>Donde contactarme</h2>
         <p>Tengo varias Redes Sociales en las cuales puedes contactarme para proponerme proyectos, contarme ideas, colaborar conmigo y mas cosas!</p>
         <p>- Youtube: proximamente</p>
+        <hr>
         <!-- Aquí empieza el formulario de contacto -->
         <form method="post" action="contact.php">
+            <h1>Formulario de contacto</h1>
             <p>Si quieres enviarme un mensaje directo, rellena el siguiente formulario y te responderé lo antes posible.</p>
             <p><label for="name">Nombre:</label>
             <input type="text" id="name" name="name" required></p>
@@ -116,9 +58,10 @@
             <input type="text" id="subject" name="subject" required></p>
             <p><label for="message">Mensaje:</label>
             <textarea id="message" name="message" rows="5" cols="40" required></textarea></p>
-            <p><input type="submit" value="Enviar"></p>
+            <button type="submit">Enviar</button>
         </form>
         <!-- Aquí termina el formulario de contacto -->
+        <br><br><br><br><br><br>
     </section>
 </body>
 
